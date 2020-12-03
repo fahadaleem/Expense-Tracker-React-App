@@ -10,9 +10,4 @@
 
 
 # Technology Used:
-- React Hooks
-- Context API
-- useState
-- useReducer
-- useEffect
-- useContext
+- React Hooks ( ✔️ useContext, ✔️ useState, ✔️ useReducer, ✔️ useEffect)
