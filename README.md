@@ -14,4 +14,4 @@
 
 
 ### Project Image
-![Github-Card-app-home](https://github.com/fahadaleem/Github-Card-Project-ReactApp/blob/main/Sample-Image-1.png)
+![Expense-Tracker](https://github.com/fahadaleem/Expense-Tracker-React-App/blob/main/sample-image.png)
