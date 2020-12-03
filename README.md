@@ -1,5 +1,5 @@
-## Expense Tracker in React JS
-# Features: 
+# Expense Tracker in React JS
+### Features: 
 - Transactions History
 - Income/Expense Display
 - Balance
@@ -9,5 +9,9 @@
 - Check for empty Fields
 
 
-# Technology Used:
+### Technology Used:
 - React Hooks ( ✔️ useContext, ✔️ useState, ✔️ useReducer, ✔️ useEffect)
+
+
+### Project Image
+![Github-Card-app-home](https://github.com/fahadaleem/Github-Card-Project-ReactApp/blob/main/Sample-Image-1.png)
