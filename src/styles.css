@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "lato";
+}
+
+body
+{
+  background: #0D1317
+}
+
+.App {
+  background-color: #ffffff; 
+  padding: 20px 40px;
+  width: 550px;
+  margin: 0 auto;
+  color: #0D1317;
+}
+
+.header {
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+.transaction-balance {
+  text-align: center;
+  margin: 10px 0;
+}
+
+.transaction-balance > h1 {
+  font-size: 2.3rem;
+  color: #ff570a;
+}
+
+.transaction-balance .transaction-amount {
+  font-size: 2rem;
+  color: #ff570a;
+}
+
+.transaction-display {
+  display: flex;
+  margin-top: 10px;
+  justify-content: center;
+  padding: 10px 0;
+  text-align: center;
+  color: #ff570a;
+}
+
+.transaction-display .income,
+.transaction-display .expense {
+  padding: 0 20px;
+}
+
+/* .transaction-display .income {
+} */
+
+.transaction-display .income {
+  color: #0D1317;
+  border-right: 2px solid gray;
+
+}
+
+.transaction-amount .expense {
+  color: #ff570a;
+}
+
+.transaction-history {
+  text-align: center;
+  margin-top: 20px;
+}
+.new-transaction {
+  display: flex;
+  justify-content: space-between;;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  /* border-right: 5px solid #1982c4; */
+  padding:0 10px;
+}
+
+.delete-btn
+{
+  display: none;
+  position: absolute;
+  padding: 5px 10px;
+  font-size: 18px;
+  left: 370px;  
+  background: #0D1317;
+  color:white;
+  border:none;
+}
+
+
+.new-transaction:hover
+{
+  text-decoration: line-through;
+}
+
+.new-transaction:hover .delete-btn
+{
+  display: block;
+  text-decoration: line-through;
+}
+
+.add-new-transaction
+{
+  padding: 15px;
+}
+
+.add-new-transaction h1
+{
+  text-align: center;
+}
+
+
+
+label
+{
+  text-align: left !important;
+  display: block;
+  padding: 10px 0;
+  font-size: 1.3rem;
+}
+
+.input-transaction
+{
+  display: block;
+  width: 95%;
+  padding:10px 10px;
+  border-radius: 5px;
+  font-size: 22px;
+
+}
+
+#submit-btn
+{
+  width: 100%;
+  margin-top: 10px;
+  padding: 10px 0;
+  font-size: 1.4rem;
+  border:none;
+  background-color:#1982c4;
+  color:white;
+  border-radius: 5px;
+}
